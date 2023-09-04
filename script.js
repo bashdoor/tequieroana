@@ -21,5 +21,7 @@ function addEvent(date, description) {
 // Ejemplo de cómo usar la función:
 addEvent("2 de julio 2023", "Reencuentro dominical, 8 pm, pollería. Amor reavivado.");
 addEvent("4 de julio 2023", "Ana en busca de locación de Elvis. Momento inolvidable.");
+addEvent("3 de septiembre 2023", "Tratando de robarle al tiempo un momento eterno para vivir juntos nuestro amor. Te quiero mucho Ana");
+
 
 
