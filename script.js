@@ -8,3 +8,18 @@ for (let i = 0; i < 30; i++) {
     heart.style.animationDelay = `-${Math.random() * 10}s`;
     heartContainer.appendChild(heart);
 }
+
+const eventsContainer = document.querySelector('.events-container');
+
+function addEvent(date, description) {
+    const event = document.createElement('div');
+    event.className = 'event';
+    event.innerText = `${date} - "${description}"`;
+    eventsContainer.appendChild(event);
+}
+
+// Ejemplo de cómo usar la función:
+addEvent("2 de julio 2023", "Reencuentro dominical, 8 pm, pollería. Amor reavivado.");
+addEvent("4 de julio 2023", "Ana en busca de locación de Elvis. Momento inolvidable.");
+
+

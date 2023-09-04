@@ -57,3 +57,26 @@ body {
     }
 }
 
+.events-container {
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+    animation: slideUpEvents 10s linear infinite;
+}
+
+.event {
+    padding: 10px 20px;
+    background-color: #f76d6d;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Animación para desplazar todo el contenedor de eventos */
+@keyframes slideUpEvents {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}
