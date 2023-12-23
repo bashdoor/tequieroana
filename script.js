@@ -22,8 +22,8 @@ function addEvent(date, description) {
 addEvent("2 de julio 2023", "Reencuentro dominical, 8 pm, pollería. Amor reavivado.");
 addEvent("4 de julio 2023", "Ana en busca de locación de Elvis. Momento inolvidable.");
 addEvent("3 de septiembre 2023", "Tratando de robarle al tiempo un momento eterno para vivir juntos nuestro amor. Te quiero mucho Ana");
-addEvent("7 de septiembre 2023", "Empieza un vida juntos como enamoras con etrega de anillo <3");
-
+addEvent("7 de septiembre 2023", "Empieza un vida juntos como enamorados con entrega de anillo <3");
+addEvent("29 de septiembre 2023", "El inicio de una relación más intima y cercano donde nos empezamos nuestros proyectos en donde comenzó todo.")
 
 
 
